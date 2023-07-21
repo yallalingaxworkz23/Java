@@ -1,0 +1,29 @@
+class MechanicTester
+{
+	public static void main(String[] args)
+	{
+		Mechanic.work();
+		Mechanic.clean();
+		Mechanic.washing();
+		Mechanic.testing();
+		Mechanic.fixing();
+		Mechanic.repair();
+		Mechanic.parts();
+		Mechanic.tools();
+		Mechanic.solve();
+		Mechanic.perform();
+		Mechanic.experince();
+		Mechanic.excelent();	
+		Mechanic.adjust();
+		Mechanic.substitute();
+		Mechanic.estimate();
+		Mechanic.service();
+		Mechanic.adapte();
+		Mechanic.correct();
+		Mechanic.lifespan();
+		Mechanic.reliablity();
+		Mechanic.system();
+		Mechanic.machine();
+		Mechanic.techniques();
+	}
+}
