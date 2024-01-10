@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to your CSS file -->
+    <!-- /* Basic CSS styling for the elements */ -->
+<style>
+.menu-bar {
+    background-color: #333;
+    color: rgb(244, 129, 129);
+    padding: 10px;
+    margin-left: 0;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 1100px;
+    font-size: x-large;
+}
+
+.menu-bar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-toggler-icon {
+    border: 0;
+    /* Add your icon styles here */
+}
+
+.form-floating {
+    margin-bottom: 20px;
+}
+
+.form-floating input[type="text"],
+.form-floating select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+</style>
+
+<!-- /* Add more styles as needed */ -->
+
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li>home</li>
+            <li>view</li>
+        </ul>
+    </div>
+    <form action="login">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
+                    <span class="navbar-toggler-icon"></span> <!-- Use an appropriate icon here -->
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h2>Weapon Info</h2>
+        <div class="form-floating mb-3">
+            Name: <input type="text" name="name" placeholder="Enter weapon Name" required>
+        </div>
+        <div class="form-floating mb-3">
+            Made By:
+            <select name="made" id="weapon-made">
+                <option value="select">Select</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="china">China</option>
+                <option value="russia">Russia</option>
+            </select>
+        </div>
+        <div class="form-floating mb-3">
+            Price: <input type="text" name="cost" placeholder="Enter amount" required>
+        </div>
+        <div class="form-floating mb-3">
+            Weapon Type: <select name="type" id="wepon">
+                <option value="select">select</option>
+                <option value="AK47">AK47</option>
+                <option value="m4">M4</option>
+         <option value="m16">M16</option>
+                <option value="short">Short gun</option>
+                <option value="gun">Machen gun</option>
+            </select>
+        </div>
+
+ <input type="submit" value="Send">
+</form>
