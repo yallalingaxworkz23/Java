@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="ISO-8859-1">
+<title>register</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+<head>
+<meta charset="ISO-8859-1">
+<title>X-workz</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+
+<!-- Add your custom CSS here -->
+<style>
+/* Style the container */
+.container {
+	margin-top: 20px;
+	max-width: 400px;
+	padding: 20px;
+	border: 1px solid #24e007;
+	border-radius: 5px;
+	background-color: #9fd6d2;
+}
+
+/* Style the form heading */
+h4 {
+	color: #b53232;
+	margin-left: 105px;
+}
+
+h4:hover {
+	color: black;
+}
+
+/* Style the form input fields */
+.form-control {
+	margin-bottom: 10px;
+}
+
+/* Style the submit button */
+.btn-primary {
+	border-radius: 10px;
+	background-color: #007bff;
+	color: #eee8e8;
+}
+
+.btn-primary:hover {
+	color: black;
+}
+
+.btn-primary:active {
+	color: red;
+}
+</style>
+</head>
+</head>
+
+<body>
+
+	<div class="container">
+		<h4>Register Form</h4>
+		<form action="rigester">
+
+			<div class="form-floating mb-3">
+				<input type="text" class="form-control" id="floatingInput"
+					name="Name" placeholder="Enter Person Name" required>
+			</div>
+
+			<div class="form-floating mb-3">
+				<input type="text" class="form-control" id="floatingInput"
+					name="emailid" placeholder="Enter Email Id" required>
+			</div>
+
+			<div class="mb-3">
+				<select class="form-select" name="Barnch">
+					<option selected>Choose Branch</option>
+					<option>CSE</option>
+					<option>ISE</option>
+					<option>ME</option>
+					<option>Civil</option>
+					<option>EEE</option>
+					<option>EC</option>
+					<option>AIML</option>
+					<option>DS</option>
+
+				</select>
+			</div>
+
+			<div class="form-floating mb-3">
+				<input type="number" name="backlog" class="form-control"
+					placeholder="Active Backlog" required> 
+			</div>
+
+			<div class="form-floating mb-3">
+				<input type="number" name="backlogs" class="form-control"
+					placeholder="Total Backlog" required>
+			</div>
+
+			<input type="submit" value="Send" class="btn btn-primary">
+
+		</form>
+	</div>
+
+</body>
+
+</html>
